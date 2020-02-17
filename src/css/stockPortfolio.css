@@ -1,0 +1,24 @@
+.stockPortfolio {
+    display:flex;
+    font-size: 26px;    
+    margin: 20px;
+    flex-direction: column;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.stockPortfolio:last-child{
+    border-bottom: none;
+}
+
+.green {
+    color: green;
+}
+
+.grey {
+    color: grey;
+}
+
+.red {
+    color: red;
+}

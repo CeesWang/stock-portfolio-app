@@ -1,0 +1,12 @@
+.stock {
+    font-size: 36px;    
+    border-bottom: 2px solid black;
+    margin: 20px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.stock:last-child{
+    border-bottom: none;
+}
+

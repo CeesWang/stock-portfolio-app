@@ -1,0 +1,13 @@
+.navBar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navItem{
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.navBarDivider{
+    align-self: center;
+}

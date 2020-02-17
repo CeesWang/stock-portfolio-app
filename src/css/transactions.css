@@ -1,0 +1,24 @@
+.transactionsParent {
+    display: flex;
+    flex-direction: column;
+}
+.transactionsContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 60%;
+    align-self: center;
+}
+
+.transactionsHeader {
+    align-self: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.transactionsList {
+    overflow-y: scroll;
+}
