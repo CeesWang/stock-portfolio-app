@@ -17,7 +17,7 @@
 - [x] Display green when the current price is greater than the day’s open price.
 
 **Nice-to-Have Stories**
-- [x] User is able to sell stocks.
-- [x] Add embellishments to the website to make it look neat
-- [x] User is able to click on the stock for more information
+- [ ] User is able to sell stocks.
+- [ ] Add embellishments to the website to make it look neat
+- [ ] User is able to click on the stock for more information
 
