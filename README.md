@@ -1,6 +1,6 @@
-# stock-portfolio-app
-
-
+# Stock-Portfolio-App
+  An web application where the user can buy stocks using the IEX API can audit his/her progress.
+  
 **Required Must-have Stories**
 - [x] User is able to create a new account with name, email, and password to buy and trade stocks.
 - [x] User is able to authenticate via email and password
@@ -16,4 +16,8 @@
 - [x] Display grey when the current price is equal to the day’s open price.
 - [x] Display green when the current price is greater than the day’s open price.
 
-# stock-portfolio-app
+**Nice-to-Have Stories**
+- [x] User is able to sell stocks.
+- [x] Add embellishments to the website to make it look neat
+- [x] User is able to click on the stock for more information
+
