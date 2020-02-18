@@ -24,7 +24,8 @@ function Login (props) {
         })
         .then(resp => resp.json())
         .then(data => {
-            if (Array.isArray(data) && data.length > 0) {           // if user has an email go to main page
+            console.log(data);
+            if (data && data.user) {           // if user has an email go to main page
                 let userInfo = {
                     "name": data.user.name, 
                     "email": data.user.email, 
