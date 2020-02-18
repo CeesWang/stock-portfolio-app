@@ -24,7 +24,7 @@ function Login (props) {
         })
         .then(resp => resp.json())
         .then(data => {
-            if (data.user.email) {           // if user has an email go to main page
+            if (Array.isArray(data) && data.length > 0) {           // if user has an email go to main page
                 let userInfo = {
                     "name": data.user.name, 
                     "email": data.user.email, 
@@ -44,14 +44,14 @@ function Login (props) {
     
     return (
         <div className="loginContainer">
-          <form className="loginForm" onSubmit={handleSubmit(onSubmit)}>
+          <form className="loginForm" onClick={() => setValid(true)} onSubmit={handleSubmit(onSubmit)}>
               <header id="loginHeader">Sign IN</header>
               <input className="loginField" placeholder="email" name="email" ref={register({ required: true })} />
               {errors.email && <p className="loginErrorMessage">email is required</p>}
           
               <input className="loginField" type="password" placeholder="password"name="password" ref={register({ required:true })} />
               {errors.password && <p className="loginErrorMessage">password is required</p>}
-              {!valid && <p className="loginErrorMessage">username or password are incorrect</p>}
+              {!valid && <p className="loginErrorMessage">username or password is incorrect</p>}
   
               <input className="loginButton" type="submit" value="Login" />
               <label className="loginSignup">Don't have an account? <Link to="/signup">Sign up now</Link></label>
