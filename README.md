@@ -21,3 +21,5 @@
 - [ ] Add embellishments to the website to make it look neat
 - [ ] User is able to click on the stock for more information
 
+**Demo**
+<img src='walkthrough.gif?raw=true' title='Video Walkthrough' width='400' alt='Video Walkthrough' />
