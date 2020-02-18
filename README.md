@@ -20,6 +20,7 @@
 - [ ] User is able to sell stocks.
 - [ ] Add embellishments to the website to make it look neat
 - [ ] User is able to click on the stock for more information
+- [ ] User stays logged in even after closing the web app
 
 **Demo**
 
